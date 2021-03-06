@@ -84,23 +84,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     data = s.recv(32768).decode()
 print('Полученное сообщение от сервера:')
 print(data)
-#sock = socket.socket()
-#print(convertToBinary('привет'))
-#sock.connect(('localhost', 9099))
-#print("Введите количество ошибок:")
-#num_mist=int(input())
-#mytext = open('txt.txt', 'r', encoding = 'UTF-8').read()
-#mytext = convertToBinary(mytext)
-#mytext = hamCoding(mytext, num_mist)
-#print(mytext)
 
-#sock.send(mytext.encode())
-#print("success\n")
-#while 1:
- #       data = sock.recv(1024)
-  #      print("Received response:" + str(data))
-
-#data = sock.recv(1024)
-#sock.close()
-#del sock
-#print("end")
