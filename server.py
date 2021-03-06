@@ -123,23 +123,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             conn.sendall(mes.encode())
 conn.close()
 
-#sock = socket.socket()
-#sock.bind(('', 9099))
-#sock.listen(1)
-#conn, addr = sock.accept()
-#mes=''
-#while 1:
-#    data = conn.recv(1024).decode()
-#    if not data:
-#        break
-#    mes += data
 
-
-#mes = hamDecoding(mes)
-#print("Декодированное сообщение:\n")
-#print(mes)
-#mes = convertBinaryToText(mes)
-#print("Полученное сообщение:\n")
-#print(mes)
-#conn.send(mes.encode())
-#conn.close()
