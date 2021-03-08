@@ -65,7 +65,7 @@ def hamCoding(s, num_mist ):
 
 
 
-HOST = '127.0.0.1'  
+HOST = '192.168.0.76'  
 PORT = 65432        #порт
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
